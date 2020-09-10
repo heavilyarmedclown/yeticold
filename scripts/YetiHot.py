@@ -7,6 +7,8 @@ if not (os.path.exists(home + "/yeticold/bitcoin")):
 	subprocess.call(['snap install network-manager'],shell=True)
 	subprocess.call(['sudo apt-get install python3-venv'],shell=True)
 	subprocess.call(['sudo apt-get install python3-pip'],shell=True)
+	subprocess.call(['sudo apt-get install scikit-build'],shell=True)
+	subprocess.call(['sudo apt-get install cmake'],shell=True)
 	subprocess.call(['sudo apt-get install sshpass'],shell=True)
 	subprocess.call(['sudo apt-get install libzbar0'],shell=True)
 	subprocess.call(['sudo apt install tor'],shell=True)
